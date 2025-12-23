@@ -110,7 +110,7 @@ export const Hero = () => {
               style={vscDarkPlus}
             >
               {`const aboutMe: DeveloperProfile = {
-  codename: "DevTech",
+  codename: "DevTech, testing updates",
   origin: "🌍 Somewhere between a coffee shop and a terminal",
   role: "Fullstack Web Sorcerer",
   stack: {
