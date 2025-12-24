@@ -59,7 +59,6 @@ export const Hero = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              {" "}
               View My Work
             </motion.a>
             <motion.a
@@ -73,7 +72,7 @@ export const Hero = () => {
           </motion.div>
 
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com" target="_blank">
+            <motion.a href="https://github.com/devpatel398" target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
             <motion.a href="https://linkedin.com" target="_blank">

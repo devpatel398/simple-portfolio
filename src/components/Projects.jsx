@@ -39,28 +39,32 @@ export const Projects = () => {
         whileInView="animate"
         viewport={{ once: true }}
       >
-        <motion.div
-          className="project-card"
-          variants={fadeInUp}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        <motion.a
+          href="https://github.com/devpatel398/youtube-clone"
+          style={{ textDecorationLine: "none" }}
         >
-          <motion.a
-            href="https://animation-personal-portfolio.vercel.app"
-            className="project-image"
-            style={{ backgroundImage: "url('/projects/ai-saas.png')" }}
-            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
-          />
-          <h3> AI SaaS Platform</h3>
-          <p>
-            A modern SaaS platform built with Next.js and OpenAI integration,
-            featuring real-time AI-powered content generation and analytics.
-          </p>
-          <div className="project-tech">
-            <span>Next.js</span>
-            <span>OpenAI</span>
-            <span>TailwindCSS</span>
-          </div>
-        </motion.div>
+          <motion.div
+            className="project-card"
+            variants={fadeInUp}
+            whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          >
+            <motion.div
+              className="project-image"
+              style={{ backgroundImage: "url('/projects/youtube-clone.png')" }}
+              whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+            />
+            <h3> Youtube Clone</h3>
+            <p>
+              A modern media sharing platform built with Next.js, React 19 and
+              AI integratoin, featuring real-time AI-powered content generation.
+            </p>
+            <div className="project-tech">
+              <span>Next.js</span>
+              <span>OpenAI</span>
+              <span>TailwindCSS</span>
+            </div>
+          </motion.div>
+        </motion.a>
 
         <motion.div
           className="project-card"
@@ -75,11 +79,8 @@ export const Projects = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Social Media Dashboard</h3>
-          <p>
-            A comprehensive social media management dashboard with analytics,
-            scheduling, and engagement tracking features.
-          </p>
+          <h3>Coming soon...</h3>
+          <p></p>
           <div className="project-tech">
             <span>React</span>
             <span>Node.js</span>
@@ -100,11 +101,8 @@ export const Projects = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Productivity Timer</h3>
-          <p>
-            A sleek productivity timer application with customizable work
-            sessions, statistics tracking, and dark mode support.
-          </p>
+          <h3>Coming soon...</h3>
+          <p></p>
           <div className="project-tech">
             <span>React</span>
             <span>TypeScript</span>
