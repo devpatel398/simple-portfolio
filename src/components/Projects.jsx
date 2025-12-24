@@ -39,13 +39,13 @@ export const Projects = () => {
         whileInView="animate"
         viewport={{ once: true }}
       >
-        <motion.a
-          href="https://animation-personal-portfolio.vercel.app"
+        <motion.div
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
         >
-          <motion.div
+          <motion.a
+            href="https://animation-personal-portfolio.vercel.app"
             className="project-image"
             style={{ backgroundImage: "url('/projects/ai-saas.png')" }}
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
@@ -60,7 +60,7 @@ export const Projects = () => {
             <span>OpenAI</span>
             <span>TailwindCSS</span>
           </div>
-        </motion.a>
+        </motion.div>
 
         <motion.div
           className="project-card"
