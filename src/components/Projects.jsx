@@ -40,7 +40,7 @@ export const Projects = () => {
         viewport={{ once: true }}
       >
         <motion.a
-          href="https://github.com/devpatel398/youtube-clone"
+          href="https://viewtube-psi.vercel.app"
           style={{ textDecorationLine: "none" }}
         >
           <motion.div
@@ -50,7 +50,9 @@ export const Projects = () => {
           >
             <motion.div
               className="project-image"
-              style={{ backgroundImage: "url('/projects/youtube-clone.png')" }}
+              style={{
+                backgroundImage: "url('/projects/viewtube-project.png')",
+              }}
               whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
             />
             <h3> Youtube Clone</h3>
