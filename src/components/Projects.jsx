@@ -55,15 +55,26 @@ export const Projects = () => {
               }}
               whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
             />
-            <h3> Youtube Clone</h3>
+            <h3>ViewTube</h3>
             <p>
               A modern media sharing platform built with Next.js, React 19 and
               AI integratoin, featuring real-time AI-powered content generation.
             </p>
             <div className="project-tech">
               <span>Next.js</span>
-              <span>OpenAI</span>
+              <span>React 19</span>
+              <span>TypeScript</span>
+              <span>tRPC</span>
               <span>TailwindCSS</span>
+              <span>ShadcnUI</span>
+              <span>DrizzleORM</span>
+              <span>PostgreSQL</span>
+              <span>Upstash</span>
+              <span>Redis</span>
+              <span>Bun</span>
+              <span>Clerk</span>
+              <span>Mux</span>
+              <span>UploadThing</span>
             </div>
           </motion.div>
         </motion.a>
@@ -76,7 +87,7 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/social-media.png')",
+              backgroundImage: "url('/projects/ai-sass.png')",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
@@ -98,7 +109,7 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/stopwatch.png')",
+              backgroundImage: "url(/projects/social-media.png)",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
