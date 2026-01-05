@@ -41,6 +41,8 @@ export const Projects = () => {
       >
         <motion.a
           href="https://viewtube-psi.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{ textDecorationLine: "none" }}
         >
           <motion.div
