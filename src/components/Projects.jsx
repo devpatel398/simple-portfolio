@@ -94,8 +94,8 @@ export const Projects = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Coming soon...</h3>
-          <p></p>
+          <h3>Blueprint Coming soon...</h3>
+          <p>Follow its progress on my github!</p>
           <div className="project-tech">
             <span>React</span>
             <span>Node.js</span>

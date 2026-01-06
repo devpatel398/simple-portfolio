@@ -44,12 +44,12 @@ export const Hero = () => {
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
             {" "}
-            Creative Developer & Designer
+            Software Developer & Designer
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-            I craft beautiful digital experiences that combine stunning design
-            with powerful functionality. Specializing in modern web applications
-            and interactive user interfaces.
+            I build modern web applications and interactive user interfaces that
+            combine clean design with solid functionality, with a growing
+            interest in AI and emerging technologies.
           </motion.p>
 
           <motion.div className="cta-buttons" variants={staggerContainer}>
@@ -72,14 +72,27 @@ export const Hero = () => {
           </motion.div>
 
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com/devpatel398" target="_blank">
+            <motion.a
+              h
+              ref="https://github.com/devpatel398"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github"> </i>
             </motion.a>
-            <motion.a href="https://linkedin.com" target="_blank">
+            <motion.a
+              href="https://www.linkedin.com/in/dev-patel-tech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-linkedin"> </i>
             </motion.a>
-            <motion.a href="https://twitter.com" target="_blank">
-              <i className="fab fa-twitter"> </i>
+            <motion.a
+              href="https://x.com/DevPatel1699707"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-x-twitter"> </i>
             </motion.a>
           </motion.div>
         </motion.div>
@@ -109,23 +122,27 @@ export const Hero = () => {
               style={vscDarkPlus}
             >
               {`const aboutMe: DeveloperProfile = {
-  codename: "DevTech",
+  codename: "Dev",
   origin: "🌍 Somewhere between a coffee shop and a terminal",
-  role: "Fullstack Web Sorcerer",
+  role: "Software Developer",
   stack: {
     languages: ["JavaScript", "TypeScript", "SQL"],
     frameworks: ["React", "Next.js", "TailwindCSS"],
-    api: ["Clerk", "Mux", "UploadThing"],
+    tools: ["tRPC", "Clerk", "Mux", "UploadThing"],
   },
+  interests: [
+    "AI in software development",
+    "frontend architecture",
+    "developer experience",
+  ],
   traits: [
-    "pixel-perfectionist",
-    "API whisperer",
-    "dark mode advocate",
-    "terminal aesthetic enthusiast",
+    "detail-oriented",
+    "UI-focused",
+    "dark mode enjoyer",
   ],
   missionStatement:
-    "Turning ideas into interfaces and bugs into feature",
-  availability: "Available for hire",
+    "Turning ideas into usable interfaces and learning from every build.",
+  availability: "Open to internships and opportunities",
 };`}
             </SyntaxHighlighter>
           </motion.div>
