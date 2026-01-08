@@ -73,8 +73,7 @@ export const Hero = () => {
 
           <motion.div className="social-links" variants={staggerContainer}>
             <motion.a
-              h
-              ref="https://github.com/devpatel398"
+              href="https://github.com/devpatel398"
               target="_blank"
               rel="noopener noreferrer"
             >
